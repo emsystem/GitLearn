@@ -1,0 +1,3 @@
+1)检出仓库：git clone http://github.com/emsystem/LearnGit
+2)在一个已存在目录初始化git：git init
+3)添加需要管理的文件：git add *
