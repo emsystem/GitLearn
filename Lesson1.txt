@@ -1,3 +1,5 @@
 1)检出仓库：git clone http://github.com/emsystem/LearnGit
 2)在一个已存在目录初始化git：git init
 3)添加需要管理的文件：git add *
+4)列出管理的文件：git ls-files
+5)提交文件：git commit -m 'comment..';  -a选项会把所有跟踪过的文件暂存起来，一起提交，跳过add步骤
