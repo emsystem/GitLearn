@@ -1,5 +1,12 @@
-1)检出仓库：git clone http://github.com/emsystem/LearnGit
+1)检出仓库：git clone http://github.com/emsystem/LearnGit [yourRename]
 2)在一个已存在目录初始化git：git init
 3)添加需要管理的文件：git add *
 4)列出管理的文件：git ls-files
 5)提交文件：git commit -m 'comment..';  -a选项会把所有跟踪过的文件暂存起来，一起提交，跳过add步骤
+6)版本回退：上一个版本就是HEAD^,上上个版本就是HEAD^^，上100个版本就是HEAD~100;
+            回到上一个版本：git reset --hard HEAD^
+            回到指定版本号：gut reset --hard dd66ff
+ 回退后会用git log 会发现之前的版本消失，可用git reflog来查看消失的版本
+
+7)删除文件：rm 文件名；git rm  文件名；git commit -m ”注释“；
+
