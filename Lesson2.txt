@@ -1,1 +1,4 @@
 1)修改默认编辑器：git config --global core.editor vim
+2)本地已经修改，但位提交的文件想回到上一版本：git checkout -- 文件名
+3）取消add暂存，但本地不变：git reset HEAD 文件名
+4)补充提交，和上一次合并为一次提交：git add 忘记的文件名；git commit --amend;
