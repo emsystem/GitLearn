@@ -9,4 +9,5 @@
  回退后会用git log 会发现之前的版本消失，可用git reflog来查看消失的版本
 
 7)删除文件：rm 文件名；git rm  文件名；git commit -m ”注释“；
+8)创建，查看，切换分支：git branch 分支名；git branch；git checkout 分支名
 
